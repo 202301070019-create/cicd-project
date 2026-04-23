@@ -1,12 +1,8 @@
-```yml id="8m1z7j"
 version: 0.2
-
 phases:
-  build:
-    commands:
-      - echo "Build started"
-
+build:
+commands:
+- echo Build started
 artifacts:
-  files:
-    - '**/*'
-```
+files:
+- '**/*'
